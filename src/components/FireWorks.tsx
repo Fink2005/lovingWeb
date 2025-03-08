@@ -6,7 +6,7 @@ import { ShinyButton } from "./magicui/shiny-button";
 
 export function ConfettiFireworks() {
   const audio = new Audio('/assets/videoplayback.webm')
-
+// hehe
   const handleClick = () => {
     audio.play()
     const duration = 5 * 1000;
