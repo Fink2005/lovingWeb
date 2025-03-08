@@ -4,6 +4,9 @@
  
 @layer base {
   :root {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
 
@@ -65,7 +68,23 @@
     --ring: 0 0% 83.1%;
   }
 }
- 
+
+@keyframes bounceCustom {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+@layer utilities {
+  .animate-bounce-custom {
+    animation: bounceCustom 1.5s infinite ease-in-out;
+  }
+}
+
+
 @layer base {
   * {
     @apply border-border;
