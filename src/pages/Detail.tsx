@@ -37,11 +37,11 @@ const Detail = () => {
   <LovingDraw/>
   </div>
 
-  <TextReveal className='text-center'>
+  <TextReveal className='text-center '>
     3 năm là quãng đường ta đã dành cho nhau, hãy xem lại những gì chúng ta đã qua em nhé!
   </TextReveal>
     <ScrollTriggered/>
-      <div className=" flex justify-center top-0">
+      <div className="flex justify-center top-0">
    <HeroVideoDialog
      animationStyle="from-center"
      videoSrc="/assets/syandnhidethuong.mp4"
